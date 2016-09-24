@@ -31,33 +31,50 @@ a:hover { color: #82E8FF; }
 #lion {
   background: #B26219;
 }
-
+#lion {
+  overflow: hidden;
+  width: 100%;
+}
 
   #tiger {
     background: #FFD5AE
   }
+#tiger {
+  overflow: hidden;
+  width: 100%;
+}
 
 #cougar {
   background: #FFD5AE
-
 }
-
 #cougar {
   overflow: hidden;
   width: 100%;
 }
 
+
+
 article {
     width: 800px;
-    background: #fff;
     color: #000;
     margin: 50px auto;
     padding: 20px 40px;
+    float: right;
+    margin: 20px;
+    width: 600px;
 
   }
 
 h2 {
   text-align: center;
+}
+
+
+
+div {
+  float: left;
+  margin: 10px;
+  width: 200px;
 }
 
 img {
